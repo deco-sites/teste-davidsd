@@ -48,7 +48,7 @@ function Newsletter(
           : "flex-col gap-4"
       }`}
     >
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-4 bg-red-950">
         {content?.title && (
           <h3 class={tiled ? "text-2xl lg:text-3xl" : "text-lg"}>
             {content?.title}
